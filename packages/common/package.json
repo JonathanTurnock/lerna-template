@@ -1,0 +1,12 @@
+{
+  "name": "common",
+  "version": "0.1.0",
+  "license": "RESERVED",
+  "private": true,
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rimraf results coverage dist tsconfig.tsbuildinfo",
+    "test": "jest --passWithNoTests --coverage src",
+    "build": "tsc --outDir dist --rootDir src"
+  }
+}
